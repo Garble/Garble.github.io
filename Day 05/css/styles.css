@@ -1,0 +1,137 @@
+@import url(ht
+	tp://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Satisfy);
+
+
+/*=========header ===============*/
+.logo{
+	width: 90px;
+}
+ 
+
+header h1{
+	color: #ff8278;
+	font-family: 'satisfy', cursive;
+	margin-top: 20px;
+}
+
+nav li a {
+	color:#61AEE6;
+	font-family: 'Open Sans', Helvetica, Arial;
+	font-weight: 400;	
+	font-size: 20px;
+}
+
+a:hover {
+	color: #ff827B;
+}
+
+nav {
+	top: 20px;
+}
+
+
+
+/*========= end of header ===============*/
+
+/*===========jumbotron =================*/
+
+.jumbotron{
+	background-image: url("../img/hero.png");
+	background-size: cover;
+	background-position: center;
+	height:420px; 
+}
+
+.jumbotron h2 {
+	font-family: 'Open Sans', Helvetica, Arial;
+	font-weight:300;
+	color:#fff;
+}
+
+/*==================End Jumbotron==================*/
+
+/*==================Content==================*/
+.featured {
+	margin-bottom :60px;
+}
+
+.product {
+	background-color: #EDF1F4;
+	border-radius: 5%;
+	border: 5px solid rgb (252, 252, 252);
+}
+
+.img-box {
+	margin: 10px 0px;
+}
+
+.btn {
+	margin-bottom: 5px;
+
+}
+
+/*==================End Content==================*/
+
+/*=============Footer==================*/
+.footer {
+	background-color: #231f20;
+	padding-top: 20px;
+}
+.footer a {
+	color: #BFC0C1;
+}
+
+.contact-info {
+	padding: 15px;
+	padding-left: 40px;
+	border-right: 1px solid #333;
+	border-left: 1px solid #333;
+}
+.social {
+	padding-top: 15px;
+}
+.footer .fin-print{
+	margin-top:10px;
+	margin-bottom: 15px;
+	color: #505050;
+}
+
+/*=================end footer =============*/
+
+/*===================media queries==========*/
+@media (max-width: 768px) {
+	centered {
+		float:none;
+		margin: 0 auto;
+	}
+	nav{
+		padding-top: 0px;
+		top: 5px;
+	}
+	.nav {
+		margin-bottom: center;
+		font-size: 45px;
+	}
+	.social i {
+		margin: 20px, 10px, 0;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
